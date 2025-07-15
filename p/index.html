@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Bundle of Joy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎉 Welcome to My Interactive Page</h1>
+
+  <button id="magicBtn">Click Me!</button>
+  <div id="secret" class="hidden">🎁 Secret Unlocked!</div>
+
+  <div class="gallery">
+    <img src="https://via.placeholder.com/150" alt="Image 1">
+    <img src="https://via.placeholder.com/150" alt="Image 2">
+    <img src="https://via.placeholder.com/150" alt="Image 3">
+  </div>
+
+  <div class="tabs">
+    <button class="tab" data-tab="1">Tab 1</button>
+    <button class="tab" data-tab="2">Tab 2</button>
+    <div id="tabContent">Select a tab!</div>
+  </div>
+
+  <form id="signupForm">
+    <h2>Sign Up</h2>
+    <input type="text" id="email" placeholder="Email" required>
+    <span id="emailFeedback" class="feedback"></span><br>
+    <input type="password" id="password" placeholder="Password" required>
+    <span id="passFeedback" class="feedback"></span><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

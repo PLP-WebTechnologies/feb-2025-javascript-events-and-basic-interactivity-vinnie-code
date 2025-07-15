@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f2f2f2;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #007BFF;
+  color: white;
+}
+
+.hidden {
+  display: none;
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.gallery img {
+  width: 150px;
+  margin: 5px;
+  border: 2px solid transparent;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+  border-color: #007BFF;
+}
+
+.feedback {
+  font-size: 0.9em;
+  color: red;
+}
+
+.valid {
+  color: green;
+}
+
+.tabs {
+  margin-top: 20px;
+}
+
+#tabContent {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  background: white;
+}
